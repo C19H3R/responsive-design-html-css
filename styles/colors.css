@@ -1,5 +1,7 @@
 html {
    --header-color: #f7f8f8;
    --header-color-icons: #a7aab2;
-   --header-font: #505666;
+   --font-color: #505666;
+   --today-articles-bg: #f7f8f8;
+   --today-articles-header: #a7aab2;
 }

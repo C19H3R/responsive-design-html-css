@@ -1,0 +1,57 @@
+.top-five {
+   background-color: var(--today-articles-bg);
+   margin-top: 5rem;
+   padding: 5rem;
+   vertical-align: top;
+}
+
+.top_five__header {
+   text-align: center;
+   font-family: trump-soft-pro;
+   font-size: 3.2rem;
+   line-height: 1.5em;
+   letter-spacing: 0.01em;
+   color: var(--today-articles-header);
+}
+
+.top-five__list {
+   padding: 0;
+}
+
+.top-five__list-item {
+   list-style: none;
+   display: flex;
+   align-items: flex-start;
+}
+.top-five__text {
+   font-family: graphik;
+   font-size: 1.6rem;
+   line-height: 1.5em;
+   font-weight: 500;
+}
+.top-five__number {
+   font-family: trump-soft-pro;
+   font-size: 3.8rem;
+   line-height: 1em;
+   font-weight: 700;
+   margin-right: 0.3em;
+   color: rgb(204, 0, 153);
+}
+
+@media only screen and (min-width: 1020px) {
+   .top-five__list {
+      margin: auto;
+      width: 85%;
+      display: flex;
+      gap: 2rem;
+   }
+}
+
+@media only screen and (max-width: 1300px) {
+   .top-five__list {
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+   }
+}

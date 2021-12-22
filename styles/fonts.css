@@ -2,3 +2,23 @@
    font-family: shentox;
    src: url(../assets/fonts/shentox-medium.woff2);
 }
+@font-face {
+   font-family: graphik;
+   src: url(../assets/fonts/graphik-regular.woff2);
+   font-weight: normal;
+}
+@font-face {
+   font-family: graphik;
+   src: url(../assets/fonts/graphik-medium.woff2);
+   font-weight: 500;
+}
+
+@font-face {
+   font-family: tnw-avalon-bold;
+   src: url(../assets/fonts/tnw-avalon-bold.woff2);
+}
+
+@font-face {
+   font-family: trump-soft-pro;
+   src: url(../assets/fonts/trump-soft-pro-bold.woff2);
+}

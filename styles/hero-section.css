@@ -1,0 +1,29 @@
+.h-section {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   color: var(--font-color);
+   font-family: graphik;
+   font-size: 3.2rem;
+
+   max-width: 90%;
+   width: 120rem;
+   margin: auto;
+   padding: 2em 0;
+   gap: 1em;
+}
+
+.h-section__logo {
+   width: min(30%, 240px);
+}
+
+@media only screen and (max-width: 1020px) {
+   .h-section {
+      flex-direction: column;
+      font-size: 1.8rem;
+   }
+   .h-section__logo {
+      width: 50%;
+   }
+}
